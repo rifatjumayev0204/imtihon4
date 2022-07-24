@@ -31,9 +31,9 @@ async function getAwait() {
                     <p>${element.company.bs}</p>
                     </div>
                     <div class='user-footer'>
-                    <p class='phone'>${element.phone}</p>
+                    <p class='phone'><i class="fa-solid fa-phone"></i> ${element.phone}</p>
                     <div>
-                    <p><a class='geo' href="https://www.google.com/maps/place/${element.address.geo.lat},${element.address.geo.lng}">Address</a>
+                    <p><a class='geo' href="https://www.google.com/maps/place/${element.address.geo.lat},${element.address.geo.lng}"><i class="fa-solid fa-location-dot location-icon"></i>Address</a>
                     </p>
                     <a class='email' href="${element.email}">${element.email}</a>
                     </div>
@@ -82,9 +82,8 @@ async function getComments(postId) {
             const li = document.createElement('li');
             li.innerHTML = `
                 <div class='comments'>
-                <div></div>
                     <h4 class='comment-name'>${item.name}</h4>
-                    <h4>${item.email}</h4>
+                    <h4 class='comment-email'>${item.email}</h4>
                     <p>${item.body}</p>
                     </div>
 

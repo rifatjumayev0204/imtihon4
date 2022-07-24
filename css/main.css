@@ -20,7 +20,7 @@
 }
 
 .box li {
-    padding: 20px 10px;
+    padding: 25px 15px;
 }
 
 .user-header {
@@ -57,9 +57,14 @@
     color: rgb(19, 143, 96);
 }
 
+.location-icon {
+    color: red;
+}
+
 .user-company {
     font-size: 18px;
     color: rgb(137, 160, 235);
+    margin-bottom: 10px;
 }
 
 .user-footer {
@@ -71,6 +76,7 @@
 
 .geo {
     color: blue;
+    margin-bottom: 4px;
 }
 
 .email {
@@ -108,4 +114,10 @@
     color: white;
     font-weight: bold;
     font-size: 19px;
+}
+
+.comment-email {
+    color: rgb(231, 97, 20);
+    margin: 5px 0;
+    text-decoration: underline
 }

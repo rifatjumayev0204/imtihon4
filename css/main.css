@@ -3,3 +3,109 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    color: white;
+}
+
+.box {
+    width: 33%;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: rgb(16, 16, 37);
+    color: rgb(189, 193, 196);
+}
+
+.box li {
+    padding: 20px 10px;
+}
+
+.user-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.user-id {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(135, 136, 136);
+}
+
+.user-username {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(188, 190, 192);
+    background-color: rgb(43, 45, 70);
+    padding: 6px 25px;
+    border-radius: 5px;
+}
+
+.user-name {
+    font-size: 30px;
+    color: rgb(116, 119, 121);
+    margin-top: 10px;
+}
+
+.user-adress {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(19, 143, 96);
+}
+
+.user-company {
+    font-size: 18px;
+    color: rgb(137, 160, 235);
+}
+
+.user-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.geo {
+    color: blue;
+}
+
+.email {
+    color: rgb(88, 168, 88);
+}
+
+.post {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color: rgb(40, 40, 63);
+}
+
+.post-title {
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+}
+
+.post-body {
+    color: white;
+    font-size: 18px;
+}
+
+.comments div {
+    list-style-type: none;
+    margin: 0 20px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: rgb(40, 40, 63);
+}
+
+.comment-name {
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+}
